@@ -9,13 +9,13 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
-Group :development, :test do 
-	gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
 end
 
-Group :production do
-	gem 'pg'
-	gem 'rails_12factor'
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :doc do
